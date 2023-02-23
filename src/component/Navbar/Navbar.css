@@ -1,0 +1,31 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 70px;
+    background-color: #282D38;
+}
+
+.navbar-container img {
+    height: 60px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.navbar-item {
+    display: flex;
+}
+
+.navbar-item li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.navbar-item li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.navbar-item li a:hover {
+    color: coral;
+}
